@@ -1,0 +1,7 @@
+[[language]]
+name = "typescript"
+language-servers = [ { name = "typescript-language-server", except-features = [ "inlay-hints" ] }, "efm-lsp-prettier" ]
+
+[[language]]
+name = "tsx"
+language-servers = [ { name = "typescript-language-server", except-features = [ "inlay-hints" ] }, "efm-lsp-prettier" ]
